@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ranga">
+<test name="Chromebrowsertest" parallel="tests">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="aug10.CrossBrowser">
+</class>
+</classes>
+</parameter>
+</test>
+<test name="firefoxbrowsertest" parallel="tests">
+<parameter name="Browser" value="firefox">
+<classes>
+<class name="aug10.CrossBrowser">
+</class>
+</classes>
+</parameter>
+</test>
+</suite>
